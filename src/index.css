@@ -23,10 +23,15 @@
     background-color: #111827;  
     color: white;
   }
-  .dynamic-text {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #d9b2ff; 
-}
+  .logo {
+    height: 6rem;
+    padding: 1rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
+  
  
  

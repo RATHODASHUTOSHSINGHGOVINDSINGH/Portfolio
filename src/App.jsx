@@ -1,4 +1,3 @@
- 
 import { BrowserRouter, Routes } from 'react-router'
 import './App.css'
 import React from 'react'
@@ -22,6 +21,7 @@ function App() {
   
  
   return (
+     
     // Navbar is a common component that will be displayed on every page.
     <div className= "min-h-screen w-full flex flex-col">
     <BrowserRouter>
