@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-          <section id="about" className="flex justify-center items-center   ">
+          <section id="about" className="flex justify-center items-center py-12   ">
       <div className="max-w-md w-full  p-6 rounded-lg shadow-lg">
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
         <p className="text-lg mb-4 ">

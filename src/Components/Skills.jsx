@@ -35,14 +35,14 @@
   
    return (
       <>
-        <section id="skills" className="skills">
+        <section id="skills" className="skills py-12">
         <h2>Skills</h2>
-        <div className="skills-container">
+        <div className="flex flex-wrap gap-6 justify-center">
           {skillsData.map((category, index) => (
-            <div className="skills-category" key={index}>
+            <div className="flex flex-col items-center m-5 " key={index}>
               <h3>{category.category}</h3>
               {category.skills.map((skill, i) => (
-                <div className="skill-item" key={i}>
+                <div className="flex flex-col items-center m-2  " key={i}>
                   <img  src={skill.icon} alt={skill.name} width="50" height="50" />
                   <span>{skill.name}</span>
                 </div>

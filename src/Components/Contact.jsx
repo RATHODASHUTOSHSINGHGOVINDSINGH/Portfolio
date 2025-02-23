@@ -12,7 +12,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto p-6  shadow-lg rounded-lg">
+    <div className="max-w-lg mx-auto p-6  shadow-lg rounded-lg py-12">
       <h2 className="text-2xl font-bold text-center mb-4">Contact Us</h2>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
         {/* Name Field */}

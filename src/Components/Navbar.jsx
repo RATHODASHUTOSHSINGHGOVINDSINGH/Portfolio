@@ -6,7 +6,7 @@ import { NavLink } from 'react-router'
    return (
     <> 
   
-  <div className={` flex justify-between items-center px-6 sm:px-10 py-4 fixed top-0 w-full left-0 z-10 transition-all duration-300  
+  <div className={` flex justify-between items-center px-6 sm:px-10  py-4 fixed top-0 w-full left-0 z-10 transition-all duration-300  
       ${darkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
        <h1 className='font-bold text-lg sm:text-xl whitespace-nowrap '>Ashutosh Rathod</h1> 
             <nav className="flex flex-wrap justify-center gap-4 sm:gap-4  ">

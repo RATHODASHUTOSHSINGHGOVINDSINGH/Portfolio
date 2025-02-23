@@ -24,7 +24,7 @@
    return (
      <div >
        <h1 className='text-4xl'>Ashutosh Rathod</h1>
-       <p className='dynamic-text'>{texts[index]}</p>
+       <p className='text-3xl font-bold  text-purple-400 '>{texts[index]}</p>
        <div className="flex space-x-4 mt-6 justify-center">
         <a
           href="https://github.com/RATHODASHUTOSHSINGHGOVINDSINGH"
