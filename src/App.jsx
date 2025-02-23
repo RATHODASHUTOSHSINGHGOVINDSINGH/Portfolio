@@ -21,8 +21,6 @@ function App() {
   
  
   return (
-     
-    // Navbar is a common component that will be displayed on every page.
     <div className= "min-h-screen w-full flex flex-col">
     <BrowserRouter>
     <Navbar darkMode={darkMode} setDarkMode={setDarkMode}/>
