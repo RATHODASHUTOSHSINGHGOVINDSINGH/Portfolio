@@ -1,6 +1,4 @@
 @import "tailwindcss";
-/* @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)); */
- /* Ensure the entire page has a consistent background */
  /* Default light mode */
  html, body, #root {
     width: 100%;
