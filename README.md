@@ -70,23 +70,31 @@ For more details, check the [official React Router documentation]( https://react
 
 
 
-### 4. Initialize Git Repository
+### 5. Initialize Git Repository
 ```sh
 git init
 git remote add origin <your-repo-url>
 git add .
 git commit -m "Initial commit"
-git push -u origin main
+git push  origin main
 ```
 
-### 5. Deploy on Vercel (Using GUI)
+ ### 6. Build and Deploy on Vercel (Using GUI)
+
+Before deploying, build the project for production:
+```sh
+npm run build
+```
+
+Then, follow these steps to deploy:
 1. Go to [Vercel](https://vercel.com/).
 2. Click on **New Project** and import your GitHub repository.
 3. Select the repository and configure the settings.
 4. Click **Deploy** and wait for the deployment to finish.
 5. Once deployed, you will get a live URL for your portfolio.
 
-### 6. Add `vercel.json`
+
+### 7. Add `vercel.json`
 Create a `vercel.json` file in the root directory with the following content:
 ```json
 {
