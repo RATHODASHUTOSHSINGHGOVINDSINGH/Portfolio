@@ -17,7 +17,6 @@ npm run dev
 ### 2. Install Tailwind CSS v4
 ```sh
 npm install tailwindcss @tailwindcss/vite
-npx tailwindcss init -p
 ```
 Then, configure `tailwind.config.js`:
 ```js
