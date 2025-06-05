@@ -36,10 +36,12 @@ const About = () => {
 
         <h3 className="text-lg font-semibold mb-4 ">Connect</h3>
         <div className="flex space-x-4 justify-center">
-          <a href="https://www.linkedin.com/in/ashutoshrathod" target="_blank" rel="noopener noreferrer" className="text-blue-500 font-semibold hover:text-blue-700">
+          <a href="https://www.linkedin.com/in/ashutoshrathod" target="_blank" rel="noopener noreferrer" //Prevent tabnabbing (safe external link)
+           className="text-blue-500 font-semibold hover:text-blue-700">
             LinkedIn
           </a>
-          <a href="https://github.com/RATHODASHUTOSHSINGHGOVINDSINGH" target="_blank" rel="noopener noreferrer" className="text-blue-500 font-semibold hover:text-blue-700">
+          <a href="https://github.com/RATHODASHUTOSHSINGHGOVINDSINGH" target="_blank" rel="noopener noreferrer" //Prevent tabnabbing (safe external link)
+          className="text-blue-500 font-semibold hover:text-blue-700">
             GitHub
           </a>
         </div>

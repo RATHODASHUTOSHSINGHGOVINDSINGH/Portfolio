@@ -69,11 +69,12 @@ const Contact = () => {
       <div className="flex justify-center space-x-6 mt-6">
         {/* LinkedIn Icon */}
         <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
-        
+        {/* Prevent tabnabbing (safe external link) */}
         </a>
         
         {/* GitHub Icon */}
-        <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer"> 
+        {/* Prevent tabnabbing (safe external link) */}
         
         </a>
       </div>

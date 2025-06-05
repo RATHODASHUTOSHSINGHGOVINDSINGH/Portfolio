@@ -22,7 +22,7 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/ashutoshrathod"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer" //Prevent tabnabbing (safe external link)
           className="hover:text-blue-500 transition duration-300"
           aria-label="LinkedIn"
         >

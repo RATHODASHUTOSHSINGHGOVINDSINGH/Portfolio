@@ -29,7 +29,7 @@
         <a
           href="https://github.com/RATHODASHUTOSHSINGHGOVINDSINGH"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer" //Prevent tabnabbing (safe external link)
           className="px-5 py-2 text-white bg-gray-500    hover:bg-blue-700 rounded-lg transition text-lg font-medium shadow-md"
         >
           GitHub
@@ -37,7 +37,7 @@
         <a
           href="https://linkedin.com/in/ashutoshrathod"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer" //Prevent tabnabbing (safe external link)
           className="px-5 py-2   text-white bg-gray-500 hover:bg-blue-700 rounded-lg transition text-lg font-medium shadow-md "
         >
           LinkedIn
