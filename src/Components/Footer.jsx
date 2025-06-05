@@ -34,7 +34,7 @@ const Footer = () => {
         <a
           href="https://github.com/RATHODASHUTOSHSINGHGOVINDSINGH"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer" //Prevent tabnabbing (safe external link)
           className="hover:text-gray-400 transition duration-300"
           aria-label="GitHub"
         >
