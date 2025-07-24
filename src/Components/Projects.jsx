@@ -40,7 +40,7 @@ const Projects = () => {
              
             
             {/* Project Content */}
-            <div className="p-4">
+            <div className="p-2">
               <h3 className="text-xl font-semibold mb-2">{title}</h3>
               <p className="mt-2 text-sm mb-3">{description}</p>
               
@@ -57,7 +57,7 @@ const Projects = () => {
               </div>
               
               {/* Action Buttons */}
-              <div className="flex gap-3 justify-center">
+              <div className="flex gap-4 justify-center">
                 <a
                   href={demoLink}
                   target="_blank"
