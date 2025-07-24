@@ -1,4 +1,4 @@
- import React from 'react'
+import React from 'react'
  
  const Skills = () => {
   const skillsData = [
@@ -9,11 +9,7 @@
         { name: "CSS", icon: "/icons/css-svgrepo-com.svg" },
         { name: "JavaScript", icon: "/icons/javascript-svgrepo-com.svg" },
         { name: "React", icon: "/icons/react-svgrepo-com.svg" },
-        { name: "Bootstrap", icon: "/icons/bootstrap-4-logo-svgrepo-com.svg " },
         { name: "TailwindCSS", icon: "/icons/tailwindcss-icon-svgrepo-com.svg" },
-        
-        
-        
       ],
     },
     {
@@ -21,7 +17,15 @@
       skills: [
         { name: "Node.js", icon: "/icons/nodejs-logo-svgrepo-com.svg" },
         { name: "Express.js", icon: "/icons/express-svgrepo-com.svg" },
+        
+
+      ],
+    },
+    {
+      category: "Database",
+      skills: [
         { name: "MongoDB", icon: "/icons/mongo-svgrepo-com.svg" },
+        { name: "MySQL", icon: "/icons/icons8-sql-48.png" },
       ],
     },
     {
@@ -32,6 +36,7 @@
       ],
     },
   ];
+ 
   
    return (
       <>
@@ -51,11 +56,8 @@
           ))}
         </div>
       </section>
-      
-      
       </>
    )
  }
  
  export default Skills
- 
